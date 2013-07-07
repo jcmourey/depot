@@ -16,5 +16,5 @@
 /tmp
 
 # Ignore RubyMine-specific config.
-.idea
-.idea/**/*
+/.idea
+/.idea/**/*
