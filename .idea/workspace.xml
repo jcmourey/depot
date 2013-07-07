@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb42ea06-e86d-4381-8b53-7a7217be4c86" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="eb42ea06-e86d-4381-8b53-7a7217be4c86" name="Default" comment="remove .idea">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/depot.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/products/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" />
     </list>
     <ignored path="depot.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/application_controller.rb" changelist="eb42ea06-e86d-4381-8b53-7a7217be4c86" time="1373188125239" ignored="false" />
-    <file path="/Dummy.txt" changelist="eb42ea06-e86d-4381-8b53-7a7217be4c86" time="1373198201339" ignored="false" />
+    <file path="/Dummy.txt" changelist="eb42ea06-e86d-4381-8b53-7a7217be4c86" time="1373212141947" ignored="false" />
     <file path="/20130707091930_create_products.rb" changelist="eb42ea06-e86d-4381-8b53-7a7217be4c86" time="1373188907773" ignored="false" />
     <file path="/20130707092350_create_products.rb" changelist="eb42ea06-e86d-4381-8b53-7a7217be4c86" time="1373189145774" ignored="false" />
     <file path="/20130707092853_change_price_scale_to_2.rb" changelist="eb42ea06-e86d-4381-8b53-7a7217be4c86" time="1373189540031" ignored="false" />
@@ -18,6 +31,7 @@
     <file path="/Ruby Console" changelist="eb42ea06-e86d-4381-8b53-7a7217be4c86" time="1373195392790" ignored="false" />
     <file path="/.gitignore" changelist="eb42ea06-e86d-4381-8b53-7a7217be4c86" time="1373197354246" ignored="false" />
     <file path="/application.rb" changelist="eb42ea06-e86d-4381-8b53-7a7217be4c86" time="1373197460373" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="eb42ea06-e86d-4381-8b53-7a7217be4c86" time="1373212154113" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,26 +81,34 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="56" selection-start="788" selection-end="788" vertical-scroll-proportion="-16.25">
+            <state line="17" column="93" selection-start="679" selection-end="679" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="32" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+            <state line="18" column="6" selection-start="497" selection-end="497" vertical-scroll-proportion="0.32451922">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="9" selection-start="348" selection-end="348" vertical-scroll-proportion="0.20420793">
-              <folding />
+            <state line="11" column="9" selection-start="348" selection-end="348" vertical-scroll-proportion="-6.875">
+              <folding>
+                <marker date="1373199100000" expanded="true" signature="96:337" placeholder="..." />
+                <marker date="1373199100000" expanded="true" signature="214:326" placeholder="..." />
+                <marker date="1373199100000" expanded="true" signature="372:442" placeholder="..." />
+                <marker date="1373199100000" expanded="true" signature="464:554" placeholder="..." />
+                <marker date="1373199100000" expanded="true" signature="576:654" placeholder="..." />
+                <marker date="1373199100000" expanded="true" signature="676:746" placeholder="..." />
+                <marker date="1373199100000" expanded="true" signature="770:799" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,10 +180,10 @@
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/products.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -780,7 +802,11 @@
       <created>1373198203542</created>
       <updated>1373198203542</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="form space">
+      <created>1373198243703</created>
+      <updated>1373198243703</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -982,23 +1008,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="9" selection-start="348" selection-end="348" vertical-scroll-proportion="-6.875">
+          <folding>
+            <marker date="1373199100000" expanded="true" signature="96:337" placeholder="..." />
+            <marker date="1373199100000" expanded="true" signature="214:326" placeholder="..." />
+            <marker date="1373199100000" expanded="true" signature="372:442" placeholder="..." />
+            <marker date="1373199100000" expanded="true" signature="464:554" placeholder="..." />
+            <marker date="1373199100000" expanded="true" signature="576:654" placeholder="..." />
+            <marker date="1373199100000" expanded="true" signature="676:746" placeholder="..." />
+            <marker date="1373199100000" expanded="true" signature="770:799" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="56" selection-start="788" selection-end="788" vertical-scroll-proportion="-16.25">
+        <state line="17" column="93" selection-start="679" selection-end="679" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="348" selection-end="348" vertical-scroll-proportion="0.20420793">
+        <state line="18" column="6" selection-start="497" selection-end="497" vertical-scroll-proportion="0.32451922">
           <folding />
         </state>
       </provider>
