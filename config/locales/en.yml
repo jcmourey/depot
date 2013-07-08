@@ -21,3 +21,6 @@
 
 en:
   hello: "Hello world"
+  errors:
+    messages:
+      must_be_url_for_gif_or_jpg_or_png: "must be a URL for GIF, JPG or PNG image."
