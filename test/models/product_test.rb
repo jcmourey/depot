@@ -59,4 +59,10 @@ class ProductTest < ActiveSupport::TestCase
     assert product.invalid?, "product #{product.title} is a duplicate and should not be allowed"
     assert_equal [I18n.translate('errors.messages.taken')], product.errors[:title]
   end
+
+  test "product title must be 10 characters minimum" do
+    product = products(:title_too_short)
+    assert product.invalid?, "product title #{product.title} is too short and should not be allowed"
+    assert_equal [I18n.translate('errors.messages.too_short', count: 10)], product.errors[:title]
+  end
 end

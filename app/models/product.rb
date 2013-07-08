@@ -6,4 +6,9 @@ class Product < ActiveRecord::Base
       with:     %r{\.(gif|jpg|png)\Z}i,
       message:  I18n.translate('errors.messages.must_be_url_for_gif_or_jpg_or_png')
   }
+  validates_length_of :title, minimum: 10
+
+  def self.latest
+    Product.order(:updated_at).last
+  end
 end
